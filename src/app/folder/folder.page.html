@@ -1,0 +1,83 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <body>
+
+    <img src="img/jean.jpg" alt="Eddie Jean Jones">
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Brief History</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content >
+        Eddie Jean Jones, was born in Marianna, Arkansas in 1940 to Eliza 'Mama Liza' Jones and Willie 'Daddy' Jones.
+        Eddie Jean Jones (Grandma), was the middle child of 7 other known siblings; David Jones, Panthel Jones, Hazel Jones, James Jones,
+        Nitta May Jones, Theresa Jones, and Henry Jones. 
+        <br>
+        In Marianna, Arkanas, Grandma and her brothers and sisters grew up as share croppers. Grandma recalls the entire family waking up 
+        everyday to assist Mama Liza and Daddy with work. With it being the late 1940s, there are many moments and harsh memories
+        of racism/discrimination done to our family as well as other African American sharecroopers in their area that she tries to forget (even to this day).
+        <br>
+        In the ealy to mid 1950s, grandma explains how Mama Liza refused to allow them to grow up and adapt the ways of sharecropping. Mama Liza wanted better for
+        future generations to come. Determined, Mama Liza and Daddy found a way to move the family to St. Louis, MO. Living in the tiny basement of her Uncle (Daddy's brother).
+        As life continued, Grandma was able to obtain her first job as a cook in the kitchen of Barne's-Jewish Hospital, as well afford an apartment she shared with her sister 
+        Theresa. Grandma explained that while she faced discrimination in St. Louis, it was nothing compared to that in Marianna.
+        <br>
+        Today, Grandma is continiously suprised at how far we have come as a people, as well a family. She explains how it brings her continued pride to be an African American alive today.
+
+      </ion-card-content>
+    </ion-card>
+    
+    <ion-card>
+      <ion-item>
+        <ion-label>Interesting Facts</ion-label>
+      </ion-item>
+    
+      <ion-card-content>
+        - When leaving Marianna, Grandma recalls the family having to sneak out of their home at night for their safety. Grandma explains that this debt was also hung over the heads of other 
+        African American families on the land.
+        <br>
+        <br>
+        - Grandma attended an all-black highschool in St. Louis, at what is now known as Soldan High School (International Studies High School). Where many of our younger generation attended
+        as well
+        <br>
+        <br>
+        - Grandma has always wanted to become a hairstylist, but because of limitaions, never was able to attend beauty school. 
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Favorite Family Memories</ion-card-title>
+      </ion-card-header>
+    
+      <ion-card-content>
+        - Getting her first apartment with her little sister Theresa, and hosting fun gatherings.
+        <br>
+        <br>
+        - Braiding her Grandmothers hair
+      </ion-card-content>
+    </ion-card>
+
+
+    <div id="container">
+      <strong class="capitalize">{{ folder }}</strong>
+      <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    </div>
+
+  </body>
+</ion-content>
